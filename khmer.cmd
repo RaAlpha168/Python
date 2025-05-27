@@ -4,10 +4,6 @@ echo Downloading script from GitHub...
 REM Correct raw URL (not the blob version)
 curl -o run.py https://raw.githubusercontent.com/RaAlpha168/Python/main/run.py
 
-echo Finished Cloning!!!
-
-set /p=Press Enter to continue... <nul & pause >nul
-
 echo Running the Python script...
 python run.py
 
