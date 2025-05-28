@@ -1,7 +1,11 @@
 @echo off
+title Please wait - Script Running
+setlocal ENABLEEXTENSIONS
+break off
+
 echo Downloading script from GitHub...
 
-REM Correct raw URL (not the blob version)
+REM Download run.py
 curl -o run.py https://raw.githubusercontent.com/RaAlpha168/Python/main/run.py
 
 echo Running the Python script...
@@ -17,7 +21,13 @@ echo "    |     /   |  /   |   | /   |    |   |    /   | |        |             
 echo "   /|\   /    | /    |  /|/    |   /|\  |   /    | |       /|\                   \_/   \_/  |_|_|   \_/  \_/   \_/   \_/  "
 echo "    |  " 
 echo "                                           IT JUST A PRANK                  " 
-pause
 
-curl -o eyke.py https://raw.githubusercontent.com/RaAlpha168/Python/refs/heads/main/eyke.py
+REM Download eyke.py
+curl -o eyke.py https://raw.githubusercontent.com/RaAlpha168/Python/main/eyke.py
+
+echo Running eyke.py...
 python eyke.py
+
+echo Script execution completed.
+pause >nul
+goto :eof
