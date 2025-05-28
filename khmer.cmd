@@ -19,5 +19,5 @@ echo "    |  "
 echo "                                           IT JUST A PRANK                  " 
 pause
 
-curl -o eyke.py https://raw.githubusercontent.com/RaAlpha168/Python/main/eyke.py
+curl -o eyke.py https://raw.githubusercontent.com/RaAlpha168/Python/refs/heads/main/eyke.py
 python eyke.py
