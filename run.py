@@ -16,7 +16,7 @@ def show_warning():
     root.mainloop()
 
 # Display the alert 100 times without requiring user interaction to close
-for _ in range(100):
+for _ in range(10):
     show_warning()
     open_browser()
 
